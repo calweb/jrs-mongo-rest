@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header,
+footer,
+main {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+}
+
+header:before,
+header:after,
+footer:before,
+footer:after,
+main:before,
+main:after {
+	content: '';
+	clear: both;
+}
+
+header,
+footer {
+	background-color: hotpink;
+	color: #fff;
+}
+
+nav {
+	display: block;
+}
+
+nav > ul {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+nav li {
+	display: inline-block;
+	padding: 10px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav li:hover {
+	background-color: blue;
+}
+nav li:hover a {
+	color: white;
+}
+.row {
+	width: 100%;
+	display: block;
+	clear: both;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-1 {
+	width: 8%;
+}
+.col-2 {
+	width: 18%;
+}
+.col-3 {
+	width: 28%;
+}
+.col-4 {
+	width: 38%;
+}
+.col-5 {
+	width: 48%;
+}
+.col-6 {
+	width: 58%;
+}
+.col-7 {
+	width: 68%;
+}
